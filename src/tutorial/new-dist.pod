@@ -66,6 +66,11 @@ almost the entire configuration that will be used to build your distribution.
 If you add more plugins that conflict with the ones in the basic bundle, but
 you had no idea what was in "@Basic", you will be confused.
 
+You may also consider using the "L<@Starter|Dist::Zilla::PluginBundle::Starter>"
+bundle, which is similar to "@Basic" but with a more updated plugin selection.
+As with "@Basic", be sure to read the documentation so you know what plugins you
+will be using.
+
 =head2 Write some code and some tests
 
 This bit is just like it would be with anything else: do the hard work that
